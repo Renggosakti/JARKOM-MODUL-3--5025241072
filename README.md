@@ -297,7 +297,8 @@ cat > /etc/kea/kea-dhcp4.conf << 'EOF'
                 }
             ],
             "reservations": [
-                { "hw-address": "<MAC eth0 Laterano>", "ip-address": "10.4.4.15" }
+                { "02:42:3b:b9:fa:00 brd ff:ff:ff:ff:ff:ff
+": "<MAC eth0 Laterano>", "ip-address": "10.4.4.15" }
             ]
         }
     ]
